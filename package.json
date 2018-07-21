@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-backend",
+  "version": "1.0.0",
+  "description": "Simple Backend in NodeJs with Express and Sequelize (ORM)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosbarbosa031/NodeJS-backend.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "Express",
+    "Sequelize"
+  ],
+  "author": "Marcos Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosbarbosa031/NodeJS-backend/issues"
+  },
+  "homepage": "https://github.com/marcosbarbosa031/NodeJS-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
