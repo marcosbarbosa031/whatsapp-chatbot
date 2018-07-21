@@ -9,7 +9,7 @@ const app = express()
 const server = require('http').Server(app)
 
 // Configurar Bodyparse
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(cors())
 
